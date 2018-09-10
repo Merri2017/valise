@@ -1,3 +1,7 @@
+@import "fonts";
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Shadows+Into+Light');
+
+
 
 /*animation specs*/
 @keyframes fade-in {
@@ -8,17 +12,29 @@
     animation-name:fade-in;
     animation-duration: 6s;
     text-align: center;
+    font-family: $loader;
 
 }
-
 
 
 /*testing out the margins I specified in wireframe:*/
 .box{
 	margin: 96px;
+
 	border: 24px;
+	// border is half of padding
 	padding: 48px;
-	border-color: #180D01;
-	border-style: solid;
-	background-image: url("pinkfairytale.jpg");
+	// padding is half of margin
+	background: url('../images/pink.jpg');
+	
 }
+
+
+#heading{
+	font-family: $main_font;
+}
+
+p{
+	font-family: $main_font;
+}
+
