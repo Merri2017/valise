@@ -1,3 +1,8 @@
+@import "fonts";
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Berkshire+Swash');
+@import "colors";
+
+
 
 /*animation specs*/
 @keyframes fade-in {
@@ -7,18 +12,70 @@
 .text{
     animation-name:fade-in;
     animation-duration: 6s;
-    text-align: center;
+    font-family: $loader;
+   	font-size: 85px;
 
+}
+
+.box{
+	position: relative;
+	// this is making the text centered
+    text-align: center;
+    color: black;
+    padding: 250px
+}
+
+
+#body1{
+	background-image: url(../images/pink.jpg);
+	background-size:100% 100vh;
+	background-repeat:no-repeat;
+
+
+	// change this color to pallete color then delete this comment
+}
+
+// index.html page begins here
+// divs equally spaced
+#heading{
+	font-family: $main_font;
+	text-align: center;
+	letter-spacing: 10px;
+	padding:8px;
+}
+
+p{
+	font-family: $main_font;
 }
 
 
 
-/*testing out the margins I specified in wireframe:*/
-.box{
-	margin: 96px;
-	border: 24px;
-	padding: 48px;
-	border-color: #180D01;
-	border-style: solid;
-	background-image: url("pinkfairytale.jpg");
+
+#container{
+	background-color: $background_main;
+	margin: 50px;
+	margin-bottom: 20px;
+}
+#content{
+	background-color: $section_color;
+	text-align: center;
+	margin: 20px;
+
+
+}
+#projects{
+	background-color: $section_color;
+	text-align: center;
+	margin: 10px;
+	margin: 20px;
+
+}
+#foot{
+	background-color: $section_color;
+	text-align:center;
+	margin:10px;
+	// margin: 20px;
+}
+#copywrite{
+	text-align:center;
 }
