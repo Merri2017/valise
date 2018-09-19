@@ -1,5 +1,6 @@
 @import "fonts";
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Berkshire+Swash');
+@import "colors";
 
 
 
@@ -11,30 +12,70 @@
 .text{
     animation-name:fade-in;
     animation-duration: 6s;
-    text-align: center;
     font-family: $loader;
+   	font-size: 85px;
 
 }
 
-
-/*testing out the margins I specified in wireframe:*/
 .box{
-	margin: 96px;
-
-	border: 24px;
-	// border is half of padding
-	padding: 48px;
-	// padding is half of margin
-	background: url('../images/pink.jpg');
-	
+	position: relative;
+	// this is making the text centered
+    text-align: center;
+    color: black;
+    padding: 250px
 }
 
 
+#body1{
+	background-image: url(../images/pink.jpg);
+	background-size:100% 100vh;
+	background-repeat:no-repeat;
+
+
+	// change this color to pallete color then delete this comment
+}
+
+// index.html page begins here
+// divs equally spaced
 #heading{
 	font-family: $main_font;
+	text-align: center;
+	letter-spacing: 10px;
+	padding:8px;
 }
 
 p{
 	font-family: $main_font;
 }
 
+
+
+
+#container{
+	background-color: $background_main;
+	margin: 50px;
+	margin-bottom: 20px;
+}
+#content{
+	background-color: $section_color;
+	text-align: center;
+	margin: 20px;
+
+
+}
+#projects{
+	background-color: $section_color;
+	text-align: center;
+	margin: 10px;
+	margin: 20px;
+
+}
+#foot{
+	background-color: $section_color;
+	text-align:center;
+	margin:10px;
+	// margin: 20px;
+}
+#copywrite{
+	text-align:center;
+}

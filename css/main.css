@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Great+Vibes|Shadows+Into+Light");
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes|Berkshire+Swash");
 /*animation specs*/
 @keyframes fade-in {
   from {
@@ -8,20 +8,51 @@
 .text {
   animation-name: fade-in;
   animation-duration: 6s;
-  text-align: center;
-  font-family: "Great Vibes", cursive; }
+  font-family: "Great Vibes", cursive;
+  font-size: 85px; }
 
-/*testing out the margins I specified in wireframe:*/
 .box {
-  margin: 96px;
-  border: 24px;
-  padding: 48px;
-  background: url("../images/pink.jpg"); }
+  position: relative;
+  text-align: center;
+  color: black;
+  padding: 250px; }
+
+#body1 {
+  background-image: url(../images/pink.jpg);
+  background-size: 100% 100vh;
+  background-repeat: no-repeat; }
 
 #heading {
-  font-family: "Shadows Into Light", cursive; }
+  font-family: "Berkshire Swash", cursive;
+  text-align: center;
+  letter-spacing: 10px;
+  padding: 8px; }
 
 p {
-  font-family: "Shadows Into Light", cursive; }
+  font-family: "Berkshire Swash", cursive; }
+
+#container {
+  background-color: #f2eaed;
+  margin: 50px;
+  margin-bottom: 20px; }
+
+#content {
+  background-color: #e7c7cc;
+  text-align: center;
+  margin: 20px; }
+
+#projects {
+  background-color: #e7c7cc;
+  text-align: center;
+  margin: 10px;
+  margin: 20px; }
+
+#foot {
+  background-color: #e7c7cc;
+  text-align: center;
+  margin: 10px; }
+
+#copywrite {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
