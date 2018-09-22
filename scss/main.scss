@@ -1,3 +1,4 @@
+@import "mixins";
 @import "fonts";
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Berkshire+Swash');
 @import "colors";
@@ -18,21 +19,29 @@
 }
 
 .box{
-	position: relative;
+	// position: relative;
 	// this is making the text centered
     text-align: center;
     color: black;
-    padding: 250px
+    padding: 250px;
+    // margin: 25px 25px 25px 25px;
+    // background-image: url(../images/pink.jpg);
+    // background-repeat:no-repeat;
+    // // height:500px;
+    // // width: 800px;
+    // background-size:50% 90vh;
+
 }
 
 
-#body1{
-	background-image: url(../images/pink.jpg);
-	background-size:100% 100vh;
-	background-repeat:no-repeat;
+
+#load-container{
+	
+	
+	
 
 
-	// change this color to pallete color then delete this comment
+	
 }
 
 // index.html page begins here
@@ -76,10 +85,14 @@ p{
 	margin:10px;
 	margin: 20px;
 }
+@include links;
+
 #copywrite{
 	text-align:center;
 }
 
 #modal1{
-
+	background-color: $background_main;
+	text-align:center;
 }
+

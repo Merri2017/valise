@@ -1,0 +1,16 @@
+@mixin links {
+  a {
+    color:inherit;
+    text-decoration: none;
+   
+    &:visited {
+      color:inherit;
+    }
+    &:hover {
+      color:inherit;  
+    }
+    &:active {
+     color:inherit;
+    }
+  }
+}
