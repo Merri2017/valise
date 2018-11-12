@@ -1,16 +1,17 @@
+@import "colors";
 @mixin links {
   a {
-    color:inherit;
+    color:$nav-text-color;
     text-decoration: none;
    
     &:visited {
-      color:inherit;
+      color:black;
     }
     &:hover {
-      color:inherit;  
+      color:yellow;  
     }
     &:active {
-     color:inherit;
+     color:green;
     }
   }
 }

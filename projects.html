@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<title>main paige demo</title>
 		<meta charset="utf-8">
@@ -13,23 +13,21 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 		<!-- note: follow this https://fontawesome.com/how-to-use/on-the-web/using-with/sass   TO USE ICONS FOR SOCIAL MEDIA -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+
 	
 	
 </head>
 <body>
-
 	<div id="container">
 		<div id="logo"></div>
-		<!-- <div id="heading">
-			<header>
-				<h1>Merrishel Richardson</h1> -->
-		<!-- 	add logo later -->			
-		<!-- 	</header>
-		</div> -->
+		
 
-		<!-- Navigation Bar -->
+<!-- Navigation Bar -->
 		<div id="navbar">
-			<ul class="nav justify-content-center" >
+			<ul class="nav justify-content-center">
   				<li class="nav-item">
    					 <a class="nav-link active" href="index.html">Home</a>
   				</li>
@@ -40,30 +38,38 @@
   			</ul>
 		</div>
 
-		<div id="content">
-			<p>
-				My name is Merrishel, founder of littleeverydayblessings.com. In 2017, I found myself in the strange and exciting world of code. I am currently seeking a career in Front End Development ( HTML 5, CSS 3, SASS and JavaScript) and during my free time, learning WordPress/PHP and Mobile App Development. My skills also include: Git, GitHub, and Trello.
-			
-			 	<br>
-			 	<br>
 
-				I also believe that respect is a right, not a priviledge. Friendliness is a virtue. Empathy is learned. Cooperation, communication, and collaboration are essential elements for effective teamwork. 
-			
-				<br>
-				<br>
-			
-				If you would like to know more about my Web Development journey, solicit an interview or request project collaboration, contact me through the links provided below.
-				<br>
-				<br> 
-				Linkedin with a message is prefered.  
-		
-			<p>
-				Looking forward.
-			</p>
-			
+		<div id="projects">
+			<div class="row">
+	    		<div class="col s12 m6 l4" id="project1" onclick="displayInfo()">
+	    		 	<a class="modal-trigger" href="#modal1"><img src="https://via.placeholder.com/350x150" height="200" width="200"></a>
+	   			</div>
+		   		<div class="col s12 m6 l4" class="project-placeholder" >
+		     		<img src="https://via.placeholder.com/350x150" height="200" width="200">
+		    	</div>
+		    	<div class="col s12 m6 l4" class="project-placeholder">
+		      		<img src="https://via.placeholder.com/350x150" height="200" width="200">
+		    	</div>
+	    	</div>			
 		</div>
+		<!-- Modal code -->
+		 <!-- Modal Structure -->
+	  <div id="modal1" class="modal">
 
-		
+	    <div class="modal-content">
+	    	<img  height="200" width="200" id="pic">
+	      <h4 id="name">Project Name</h4>
+	      <p id="languages">Languages Used</p>
+	      <p id="inspo">Inspiration Story</p>
+	      <i class="fab fa-github fa-3x" id="github"></i>
+	     
+	     <i class="fas fa-desktop"></i>
+	    </div>
+	    <div class="modal-footer">
+	      <a href="" class="modal-close waves-effect waves-green btn-flat">Close</a>
+	    </div>
+	  </div>
+
 		<div id="foot">
 			<footer>
 				<div class="row">
@@ -90,10 +96,9 @@
 	 	crossorigin="anonymous"></script>
 	 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	 	<script src="script/modal.js"></script>
-	 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-			
 	
 
 
