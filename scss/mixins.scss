@@ -8,10 +8,11 @@
       color:black;
     }
     &:hover {
-      color:yellow;  
+      color:$link-hover-color;  
+       // background-color: black;
     }
     &:active {
-     color:green;
+     color: $link-hover-color;
     }
   }
 }

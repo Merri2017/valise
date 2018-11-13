@@ -11,7 +11,7 @@
  // when user click image, the info for that project displays without constantly rewriting the code.
  // function that displays the data entered - onclick="displayInfo()"
  
- 
+
 // function displayInfo(){
 // 	var image = ["<img src= images/rustic.jpg>"];
 // 	var name = ["Advanced Calculator"];
@@ -51,3 +51,7 @@ var calculator = new Project ("<img src= images/rustic.jpg>","Advanced Calculato
 // figure out how to get links into the object
 //constructor is a key word. research more - it is used to create the object in the class 
 // class vs constructor
+
+// bootstrap has tooltips and links for modals - look into it.
+
+// https://getbootstrap.com/docs/4.0/components/modal/

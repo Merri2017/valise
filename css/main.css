@@ -1,15 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Great+Vibes|Berkshire+Swash");
-/*animation specs*/
-.box {
-  text-align: center;
-  color: black;
-  padding: 250px; }
-
-#heading {
-  font-family: "Great Vibes", cursive;
-  letter-spacing: 10px;
-  padding: 8px; }
-
 #navbar {
   margin-left: auto;
   margin-right: auto; }
@@ -19,48 +8,72 @@
     #navbar a:visited {
       color: black; }
     #navbar a:hover {
-      color: yellow; }
+      color: #FFD700; }
     #navbar a:active {
-      color: green; }
+      color: #FFD700; }
 
 .nav-item {
   margin-top: 50px;
-  font-size: 30px;
+  font-size: 25px;
+  font-family: "Berkshire Swash", cursive; }
+
+/*animation specs*/
+.box {
+  text-align: center;
+  color: black; }
+
+#heading {
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  letter-spacing: 10px;
+  padding: 8px;
+  font-size: 50px;
+  text-shadow: 1px 1px white;
+  background-color: #ed8ec7; }
+
+#navbar {
+  background-color: #ed8ec7; }
+
+.animated {
   font-family: "Berkshire Swash", cursive; }
 
 #container {
-  background-color: #f2eaed;
-  margin: 50px;
-  margin-bottom: 20px; }
+  background-color: #f2eaed; }
+
+#profilepic {
+  float: left;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%; }
 
 #content {
-  background-color: #e7c7cc;
-  margin: 20px; }
+  margin: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("images/pink.jpg"); }
 
 #projects {
   background-color: #e7c7cc;
   text-align: center;
-  margin: 10px;
-  margin: 20px;
-  border-style: double; }
+  margin: 19px;
+  padding-top: 80px;
+  padding-bottom: 80px; }
 
 .project-placeholder {
   margin: 20px; }
 
 #foot {
-  background-color: #e7c7cc;
   text-align: center;
-  margin: 10px;
-  margin: 20px; }
+  background-color: #ed8ec7; }
   #foot a {
     color: #f8d90f;
     text-decoration: none; }
     #foot a:visited {
       color: black; }
     #foot a:hover {
-      color: yellow; }
+      color: #FFD700; }
     #foot a:active {
-      color: green; }
+      color: #FFD700; }
 
 #copywrite {
   text-align: center; }
